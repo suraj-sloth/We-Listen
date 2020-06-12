@@ -1,0 +1,146 @@
+:root{
+	--wred:#F6511D;
+	--wblue:#0D2C54;
+	--wgreen:#7CEA9C;
+}
+
+html{
+	margin:0;
+	padding: 0;
+
+}
+
+body{
+	font-family: 'Balsamiq Sans', cursive !important;
+}
+
+h1{
+	font-weight: 700;
+}
+
+nav{
+	z-index: 100;
+}
+
+.nav-item{
+}
+
+.nav-item a:hover{
+	background-color: var(--wgreen);
+	color: black;
+}
+
+.navbar{
+	background-color: var(--wblue);
+}
+
+.navbar-brand
+{
+  position:absolute;
+  left:calc(50% - 35px);
+}
+
+.navbar-brand img{
+	height: 6.5em;
+	width: auto;
+	margin-top: 2em;
+}
+
+.header{
+	padding-top:4rem;
+	padding-left: 10%;
+	padding-right: 10%;
+	background-color: var(--wgreen);
+	height: 37rem;
+	position: relative;
+}
+
+.header h1{
+	font-size: 3.5rem;
+	text-transform: uppercase;
+	letter-spacing: .2rem;
+}
+
+.header .postpage-btn{
+	border:solid .1em var(--wblue);
+	padding: .4em .8em .4em;
+	color: var(--wblue);
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+}
+.header .postpage-btn:hover{
+	text-decoration: none;
+	color: var(--wgreen);
+	background-color: var(--wblue);
+}
+
+.header .social{
+	color: var(--wblue);
+}
+
+.header .social:hover{
+	color: black;
+}
+
+.custom-shape-divider-bottom-1591985215 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1591985215 svg {
+    position: relative;
+    display: block;
+    width: calc(130% + 1.3px);
+    height: 68px;
+}
+
+.custom-shape-divider-bottom-1591985215 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.posts{
+	padding-top: 3rem; 
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.post img{
+	height: auto;
+	width: 22em;
+}
+
+.post a{
+	background-color: var(--wblue);
+}
+
+.posts .card{
+	border-radius: .2rem; 
+	border-color: var(--wblue); 
+	box-shadow: .3rem .6rem var(--wblue);
+	margin-bottom: 2rem;
+}
+
+.posts .card:hover{
+	box-shadow: 5px 10px var(--wblue);
+}
+
+footer{
+	background-color: var(--wblue);
+	padding-top: 5vh;
+	padding-bottom: 5vh;
+	color: var(--wgreen) !important;
+}
+
+footer a{
+	color: var(--wgreen);
+}
+footer a:hover{
+	text-decoration: none;
+	color: white
+}
