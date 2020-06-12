@@ -20,6 +20,7 @@ h1{
 
 nav{
 	z-index: 100;
+	position: fixed;
 }
 
 .nav-item{
@@ -47,11 +48,11 @@ nav{
 }
 
 .header{
-	padding-top:4rem;
+	padding-top:6rem;
 	padding-left: 10%;
 	padding-right: 10%;
 	background-color: var(--wgreen);
-	height: 37rem;
+	height: 39rem;
 	position: relative;
 }
 
